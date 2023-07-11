@@ -6,5 +6,6 @@
         "matchPackagePatterns": ["*"],
         "matchUpdateTypes": ["minor", "patch"]
       }
-    ]
+    ],
+   "prHourlyLimit": 99
 }
