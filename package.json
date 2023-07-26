@@ -1,5 +1,5 @@
 {
   "dependencies": {
-      "xmldoc": "1.2.0"
+      "nodebb": "2.8.12"
   }
 }
