@@ -2,8 +2,11 @@
    "prHourlyLimit": 99,
    "packageRules": [
       {
-         "matchPackageNames": ["xmldoc"],
-         "recreateWhen": "always"
+         "matchBaseBranches": ["hello"],
+         "osvVulnerabilityAlerts": true,
+         "dependencyDashboardApproval": true,
+         "dependencyDashboardOSVVulnerabilitySummary": "all"
       }
-   ]
+   ],
+   "baseBranches": ["main", "hello"]
 }
