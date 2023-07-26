@@ -1,9 +1,0 @@
-{
-   "prHourlyLimit": 99,
-   "packageRules": [
-      {
-         "matchPackageNames": ["xmldoc"],
-         "recreateWhen": "always"
-      }
-   ]
-}
