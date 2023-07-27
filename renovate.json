@@ -1,12 +1,16 @@
 {
-   "prHourlyLimit": 99,
-   "packageRules": [
-      {
-         "matchBaseBranches": ["hello"],
-         "osvVulnerabilityAlerts": true,
-         "dependencyDashboardApproval": true,
-         "dependencyDashboardOSVVulnerabilitySummary": "all"
-      }
-   ],
-   "baseBranches": ["main", "hello"]
+  "prHourlyLimit": 99,
+  "extends": [ "config:base"],
+  "packageRules": [
+    {
+      "enabled": false,
+      "matchBaseBranches": ["hello"],
+      "matchPackagePatterns": ["*"]
+    }
+  ],
+  "vulnerabilityAlerts": {
+    "enabled": true
+  },
+  "osvVulnerabilityAlerts": true,
+  "baseBranches": ["main", "hello"]
 }
