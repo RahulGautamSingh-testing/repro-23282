@@ -1,16 +1,3 @@
 {
-  "prHourlyLimit": 99,
-  "extends": [ "config:base"],
-  "packageRules": [
-    {
-      "enabled": false,
-      "matchBaseBranches": ["hello"],
-      "matchPackagePatterns": ["*"]
-    }
-  ],
-  "vulnerabilityAlerts": {
-    "enabled": true
-  },
-  "osvVulnerabilityAlerts": true,
-  "baseBranches": ["main", "hello"]
+  "prHourlyLimit": 99
 }
