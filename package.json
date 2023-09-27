@@ -1,7 +1,5 @@
 {
   "dependencies": {
-      "nodebb": "2.8.12",
-    "xmldoc": "1.1.0",
-    "nuclide": "0.280.0"
+    "xmldoc": "1.1.0"
   }
 }
